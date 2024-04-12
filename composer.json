@@ -1,0 +1,13 @@
+{
+    "require": {
+        "stripe/stripe-php": "^12.2",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload":{
+        "files":[
+            "resources/helpers/helpers.php"
+        ]
+
+    }
+    
+}

@@ -1,0 +1,185 @@
+object(Stripe\StripeObject)#14 (1) {
+  ["object"]=>
+  object(Stripe\Charge)#36 (46) {
+    ["id"]=>
+    string(27) "ch_3Npo3RH7Of3DEafz0cDaLcey"
+    ["object"]=>
+    string(6) "charge"
+    ["amount"]=>
+    int(100)
+    ["amount_captured"]=>
+    int(100)
+    ["amount_refunded"]=>
+    int(0)
+    ["application"]=>
+    NULL
+    ["application_fee"]=>
+    NULL
+    ["application_fee_amount"]=>
+    NULL
+    ["balance_transaction"]=>
+    string(28) "txn_3Npo3RH7Of3DEafz0pNIfWeX"
+    ["billing_details"]=>
+    object(Stripe\StripeObject)#30 (4) {
+      ["address"]=>
+      object(Stripe\StripeObject)#18 (6) {
+        ["city"]=>
+        NULL
+        ["country"]=>
+        NULL
+        ["line1"]=>
+        NULL
+        ["line2"]=>
+        NULL
+        ["postal_code"]=>
+        NULL
+        ["state"]=>
+        NULL
+      }
+      ["email"]=>
+      NULL
+      ["name"]=>
+      NULL
+      ["phone"]=>
+      NULL
+    }
+    ["calculated_statement_descriptor"]=>
+    string(6) "Stripe"
+    ["captured"]=>
+    bool(true)
+    ["created"]=>
+    int(1694592249)
+    ["currency"]=>
+    string(3) "usd"
+    ["customer"]=>
+    NULL
+    ["description"]=>
+    string(23) "(created by Stripe CLI)"
+    ["destination"]=>
+    NULL
+    ["dispute"]=>
+    NULL
+    ["disputed"]=>
+    bool(false)
+    ["failure_balance_transaction"]=>
+    NULL
+    ["failure_code"]=>
+    NULL
+    ["failure_message"]=>
+    NULL
+    ["fraud_details"]=>
+    array(0) {
+    }
+    ["invoice"]=>
+    NULL
+    ["livemode"]=>
+    bool(false)
+    ["metadata"]=>
+    object(Stripe\StripeObject)#20 (0) {
+    }
+    ["on_behalf_of"]=>
+    NULL
+    ["order"]=>
+    NULL
+    ["outcome"]=>
+    object(Stripe\StripeObject)#19 (6) {
+      ["network_status"]=>
+      string(19) "approved_by_network"
+      ["reason"]=>
+      NULL
+      ["risk_level"]=>
+      string(6) "normal"
+      ["risk_score"]=>
+      int(54)
+      ["seller_message"]=>
+      string(17) "Payment complete."
+      ["type"]=>
+      string(10) "authorized"
+    }
+    ["paid"]=>
+    bool(true)
+    ["payment_intent"]=>
+    string(27) "pi_3Npo3RH7Of3DEafz0q2CVuQB"
+    ["payment_method"]=>
+    string(27) "pm_1Npo3RH7Of3DEafzUNxObdg6"
+    ["payment_method_details"]=>
+    object(Stripe\StripeObject)#25 (2) {
+      ["card"]=>
+      object(Stripe\StripeObject)#43 (16) {
+        ["brand"]=>
+        string(4) "visa"
+        ["checks"]=>
+        object(Stripe\StripeObject)#48 (3) {
+          ["address_line1_check"]=>
+          NULL
+          ["address_postal_code_check"]=>
+          NULL
+          ["cvc_check"]=>
+          NULL
+        }
+        ["country"]=>
+        string(2) "US"
+        ["exp_month"]=>
+        int(9)
+        ["exp_year"]=>
+        int(2024)
+        ["fingerprint"]=>
+        string(16) "0pwUNVAfSXucd9mI"
+        ["funding"]=>
+        string(6) "credit"
+        ["incremental_authorization"]=>
+        object(Stripe\StripeObject)#49 (1) {
+          ["status"]=>
+          string(11) "unavailable"
+        }
+        ["incremental_authorization_supported"]=>
+        bool(false)
+        ["installments"]=>
+        NULL
+        ["last4"]=>
+        string(4) "4242"
+        ["mandate"]=>
+        NULL
+        ["network"]=>
+        string(4) "visa"
+        ["network_token"]=>
+        object(Stripe\StripeObject)#53 (1) {
+          ["used"]=>
+          bool(false)
+        }
+        ["three_d_secure"]=>
+        NULL
+        ["wallet"]=>
+        NULL
+      }
+      ["type"]=>
+      string(4) "card"
+    }
+    ["receipt_email"]=>
+    NULL
+    ["receipt_number"]=>
+    NULL
+    ["receipt_url"]=>
+    string(156) "https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTm9NMmVIN09mM0RFYWZ6KPrZhagGMganokaHtAs6LBaROtM-AT84N3QnHq0klAjiEzeY5u2tFHLTJEab3joNpb2EcmMXwc4RWe4h"
+    ["refunded"]=>
+    bool(false)
+    ["review"]=>
+    NULL
+    ["shipping"]=>
+    NULL
+    ["source"]=>
+    NULL
+    ["source_transfer"]=>
+    NULL
+    ["statement_descriptor"]=>
+    NULL
+    ["statement_descriptor_suffix"]=>
+    NULL
+    ["status"]=>
+    string(9) "succeeded"
+    ["transfer_data"]=>
+    NULL
+    ["transfer_group"]=>
+    NULL
+  }
+}
